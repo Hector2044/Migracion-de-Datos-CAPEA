@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+form{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+    padding: 15px 0px;
+    padding: 70px 30px;
+}
+
+
+.ancho{
+    width: 50%;
+}
+
+.button:hover{
+    background-color: rgb(99, 99, 226);
+   }
+
+.button{
+    height: 30px;
+    color: white;
+    background-color: rgb(172, 172, 172);
+    font-size: 16px;
+    border-radius: 20px;           
+}
+
+#adorno{
+    height: 90px;
+    background-color: rgb(48, 48, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#avatar{
+    align-items: center;
+}
+
+a{
+    color: aliceblue;
+    font-size: 40px;
+    width: 20%;
+    text-align: center;
+   }
+   
+   .etiqueta{
+       font-size: 15px;
+       margin-top: 10px;
+       display:block;
+   }
