@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background:url(fondo.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+#adorno{
+    height: 90px;
+    background-color: rgb(39, 39, 173);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 1000px;
+    margin: auto;
+    text-align: justify;
+    background-color: rgb(182, 179, 179);
+    padding: 15px 0px;
+    padding: 20px 30px;
+    border: 2px solid black;
+}
+
+#centrado{
+    text-align: center;
+}
+
+.botonesArchivo{
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(99, 99, 226);
+   }
+
+.botonesOrden{
+    position: relative;
+    left: 70%;
+}
+
+a{
+    color: aliceblue;
+    font-size: 40px;
+    width: 20%;
+    text-align: center;
+   }
+   
+   .etiqueta{
+       font-size: 15px;
+       margin-top: 10px;
+       display:block;
+   }
