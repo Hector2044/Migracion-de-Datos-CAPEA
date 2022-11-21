@@ -17,8 +17,8 @@
  
  $insertar="INSERT INTO alumnos (Nombre, Edad, Fecha, Tutor, Domicilio, 
  Telefono, Grupo, Terapeuta, Psicologo_o_Neurologo, Medicamentos, 
- Asistencia, Activo, Imagen) VALUES ('roberto', '23', '5/4/3','ray',
- 'SLP slp','123232','s3','Roberta','Robertiño','Robertamol','Miercoles y jueves','1','asdasdsad');";
+ Asistencia, Activo, Imagen) VALUES ('$name', '$edad', '$fecha','$tutor',
+ '$direccion','$tel','$grupo','$terapeuta','$doctor','$med','$asistencia','$activo','$foto');";
 
   mysqli_query($conexion, $insertar);
  
