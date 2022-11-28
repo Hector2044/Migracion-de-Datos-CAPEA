@@ -40,17 +40,17 @@
 </a>
 
     </div>
+
     <div class="tablabuscar">
   <form action="buscar.php" method="post"> 
     <input type="text" name = "buscar" id="">
     <input type = "submit" value="Buscar" class = "botonesTe" >
-
-
   </form>
-    <button class = "botonesTe" onclick="location.href='nuevo.php'"> Agregar </button>
+
+    
 </div>
 
-
+<form action="">
 <table class="tabladatos">
         <tr>
             <th>id</th>
@@ -90,8 +90,10 @@
              }
         ?>
   </table>
-
-
+  <br>
+  
+    <a  href="nuevo.php" class = "botonesTe"> Agregar nuevo </a>
     
+  </form>
 </body>
 </html>
