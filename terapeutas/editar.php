@@ -23,19 +23,19 @@
         <i class="fa fa-lock" aria-hidden="true"></i>
         <label class="etiqueta" for="">Administrador</label>
       </a>
-    <a class="LinkBorder" href="#">
+    <a class="LinkBorder" href="/Proyecto/terapeutas/index.php">
     <i class="fa fa-user-circle" aria-hidden="true"></i>
     <label class="etiqueta" for="">Terapeutas</label>
       </a>
-   <a class="LinkBorder" href="#">
+   <a class="LinkBorder" href="/Proyecto/calendario/index.php">
   <i class="fa fa-calendar" aria-hidden="true"></i>
   <label class="etiqueta" for="">Calendario</label>
     </a>
-   <a class="LinkBorder" href="#">
+   <a class="LinkBorder" href="/Proyecto/archivo/index.php">
   <i class="fa fa-child" aria-hidden="true"></i>
   <label class="etiqueta" for="">Archivos</label>
 </a>
-<a class="LinkBorder" href="#">
+<a class="LinkBorder" href="/Proyecto/expediente/index.php">
   <i class="fa fa-file" aria-hidden="true"></i>
   <label class="etiqueta" for="">Expediente</label>
 </a>

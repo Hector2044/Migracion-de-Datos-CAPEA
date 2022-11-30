@@ -13,6 +13,12 @@
  $med= $_POST["med"];
  $asistencia= $_POST["asis"];
  $activo= $_POST["activo"];
+
+  $activo=0;
+  if(isset($_POST['activo'])){
+    $activo=1;
+  }
+
  $foto= $_POST["foto"];
  
  $insertar="INSERT INTO alumnos (Nombre, Edad, Fecha, Tutor, Domicilio, 
@@ -23,4 +29,6 @@
   mysqli_query($conexion, $insertar);
  
  header("Location: ../index.php?registro=correcto");
+
+
 ?>
