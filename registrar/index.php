@@ -11,7 +11,7 @@
 <body>  
 
     <div id="adorno">
-        <a href="#">
+        <a href="/Proyecto/login/index.php">
             <i class="fa fa-lock" aria-hidden="true"></i>
             <label class="etiqueta" for="">Administrador</label>
             </a>

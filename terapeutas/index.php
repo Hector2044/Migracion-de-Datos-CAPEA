@@ -18,7 +18,7 @@
 </head>
 <body>
 <div id="adorno">
-    <a class="LinkBorder" href="#">
+    <a class="LinkBorder" href="/Proyecto/login/index.php">
         <i class="fa fa-lock" aria-hidden="true"></i>
         <label class="etiqueta" for="">Administrador</label>
       </a>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div id="adorno">
-    <a href="#">
+    <a href="/Proyecto/login/index.php">
         <i class="fa fa-lock" aria-hidden="true"></i>
         <label class="etiqueta" for="">Administrador</label>
     </a>
@@ -51,8 +51,8 @@
         <button class="botonesArchivo" onclick="cambiarOrden('Grupo')">Ordenar por Grupo</button>
     </div>
 	<?php
-	include('obtenerAlumnos.php');
 
+	include('obtenerAlumnos.php');
 	foreach ($resultado as $alumno) { ?>
         <div class="botones">
             <label for="nombre">Nombre: <?php echo $alumno['Nombre']; ?></label>
@@ -67,6 +67,7 @@
                 <button type="submit" class="botonesArchivo" name="id" value="<?php echo $alumno['Clave'] ?>">Archivar
                 </button>
             </form>
+            <a href="/Proyecto/ver/index.php?id=<?php echo $alumno['Clave'] ?>" class="botonesArchivo button">Ver</a>
         </div>
         <label for="grupo"> Grupo: <?php echo $alumno['Grupo'] ?></label>
 		<?php

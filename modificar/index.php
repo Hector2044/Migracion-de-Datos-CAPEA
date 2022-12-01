@@ -11,7 +11,7 @@
 <body>
 
 <div id="adorno">
-    <a href="#">
+    <a href="/Proyecto/login/index.php">
         <i class="fa fa-lock" aria-hidden="true"></i>
         <label class="etiqueta" for="">Administrador</label>
         </a>
@@ -40,7 +40,7 @@ $alumno = include "obtenerAlumno.php";
 ?>
 
 <form action="modificar.php" method="POST">
-    <h2>Modificacion alumno</h2>
+    <h2>Modificación alumno</h2>
 
     <label for="foto">Añadir foto del alumno: </label>
     <input type="file" name="foto" id="Foto">

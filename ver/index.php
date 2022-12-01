@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Modificacion</title>
+    <title>Modificación</title>
 </head>
 <body>
 
 <div id="adorno">
-    <a href="#">
+    <a href="/Proyecto/login/index.php">
         <i class="fa fa-lock" aria-hidden="true"></i>
         <label class="etiqueta" for="">Administrador</label>
     </a>
@@ -74,6 +74,12 @@ $alumno = include "obtenerAlumno.php";
     <br>
     <label for="grupo"> Grupo: </label>
     <span><?php echo $alumno['Grupo'] ?></span>
+    <br>
+    <label for="grupo"> Asistencia: </label>
+    <span><?php echo $alumno['Asistencia'] ?></span>
+    <br>
+    <label for="grupo"> Activo: </label>
+    <span><?php echo $alumno['Activo'] ?></span>
     <br>
 </form>
 </body>

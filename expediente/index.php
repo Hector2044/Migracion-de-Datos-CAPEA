@@ -10,7 +10,7 @@
 </head>
 <body>
 <div id="adorno">
-    <a href="#">
+    <a href="/Proyecto/login/index.php">
         <i class="fa fa-lock" aria-hidden="true"></i>
         <label class="etiqueta" for="">Administrador</label>
         </a>
@@ -44,6 +44,7 @@
     <button class="botonesOrden" onclick="cambiarOrden('Grupo')">Ordenar por Grupo</button>
     <br>
 	<?php
+
 	$resultado = include 'obtenerArchivados.php';
 	foreach ($resultado as $archivado) { ?>
 
